@@ -319,7 +319,7 @@ body{
 		font-size: 12px;
 		position: relative;
 		top: 0;
-		right: 0px;
+		right: 30px;
 	}
 	.firstblock__text p{
 		padding: 0 30px 10px 0px;
@@ -348,13 +348,14 @@ body{
 }
 
 .about {
+	margin: 50px 0 0 0;
 }
 .container {
 }
 .about__row {
 }
 .about__body {
-	margin: 50px 0 0 0;
+	margin: 70px 0 0 0;
 }
 .about__title {
 	font-size: 30px;
@@ -381,6 +382,9 @@ body{
 	}
 	.about__text p{
 		padding: 0 0 10px 0;
+	}
+	.about__body{
+		margin: 0;
 	}
 }
 
@@ -637,11 +641,53 @@ body{
 	justify-content:center;
 	align-items: center;
 }
+@media (max-width:767px){
+	.rewards__text{
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0 0px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 500;
+	text-shadow: 0px 0px 5px #fff;
+}
+.rewards__text__one{
+	padding: 0 0 10px 0;
+	text-align: center;
+	width: 220px;
+}
+.rewards__text__two{
+	text-align: center;
+	width: 200px;
+	padding: 0 0 10px 0;
+}
+.rewards__text__three{
+	text-align: center;
+	width: 220px;
+	padding: 0 0 10px 0;
+}
+.rewards{
+	background-color: rgba(27, 27, 27, 1);
+	padding: 0px 0 10px 0;
+	box-shadow: 1px 1px 20px #000 inset;
+}
+.rewards__img{
+	display: flex;
+	flex-direction: column;
+}
+}
 
 @media (max-width:767px){
 	.wrappen{padding: 50px 10px;}
 }
-
+.wrappen{
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
 /* Основные стили */
 
 /* Слайдер */
@@ -803,7 +849,7 @@ body{
 	visibility: hidden;
 	overflow-y: auto;
 	overflow-x: hidden;
-	z-index: 6;
+	z-index: 11;
 	transition: all 0.8s ease 0s;
 }
 .popup:target{
