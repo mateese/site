@@ -307,6 +307,7 @@ body{
 @media (max-width:767px){
 	.firstblock__title{
 		font-size: 20px;
+
 		padding: 0 70px 30px 0px;
 	}
 	.shop{
@@ -316,15 +317,18 @@ body{
 	}
 	.firstblock__text{
 		font-size: 12px;
+		position: relative;
+		top: 0;
+		right: 0px;
 	}
 	.firstblock__text p{
 		padding: 0 30px 10px 0px;
 	}
 	.firstblock__button{
-		margin: 30px 70px 0 0;
+		margin: 20px 70px 0 0;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-end;
 	}
 	.button__one:hover{
 	width: 125px;
@@ -350,7 +354,7 @@ body{
 .about__row {
 }
 .about__body {
-	margin: 120px 0 0 0;
+	margin: 50px 0 0 0;
 }
 .about__title {
 	font-size: 30px;
@@ -381,7 +385,7 @@ body{
 }
 
 .how__work__row{
-	margin: 120px 0 0 0;
+	margin: 50px 0 0 0;
 }
 .how__work__title{
 	padding: 0 0 100px 0;
@@ -494,7 +498,7 @@ body{
 .conection__text{
 	color: #fff;
 	font-size: 18px;
-	padding: 40px 0 20px 30px;
+	padding: 40px 0 30px 30px;
 }
 .conection__tel{
 	color: #fff;
@@ -554,17 +558,17 @@ body{
 		.conection__tel{
 	color: #fff;
 	font-size: 12px;
-	padding: 13px 10px;
+	padding: 8px 10px;
 	position: relative;
 	top: 30px;
 	left: 250px;
 }
 .conection__abo{
 	color: #fff;
-	padding: 0px 0 23px 0px;
+	padding: 0px 0 13px 0px;
 	font-size: 13px;
 	position: relative;
-	bottom: 70px;
+	bottom: 50px;
 	left: 10px;
 }
 .but2{
@@ -572,7 +576,7 @@ body{
 		height: 40px;
 		font-weight: 600;
 		font-size: 14px;
-		margin: 10px 78px 0 78px;
+		margin: 0px 78px 0 78px;
 	}
 	.but2:hover{
 	width: 125px;
