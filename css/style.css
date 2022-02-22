@@ -478,13 +478,52 @@ body{
 	padding: 0 0px 0 10px;
 	text-align: center;
 }
+.how__tel{
+	display: none;
+}
 @media (max-width:767px){
 		.how__work{
 
 		}
+		.how__tel{
+		display: flex;
+		justify-content: center;
+		}
+		.body__text{
+			display: none;
+		}
+		.body__text__second{
+			display: none;
+		}
+		.how__work__body{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			display: none;
+		}
+		.body__text__two{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			display: none;
+		}
+		.how__work__body__three{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+			display: none;
+		}
+		.how__img{
+			display: none;
+		}
 		.how__work__title{
 			font-size: 22px;
 			font-weight: 600;
+			padding: 0 0 70px 0;
 		}
 }
 
