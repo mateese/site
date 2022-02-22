@@ -699,6 +699,9 @@ body{
 	text-shadow: 0px 0px 5px #fff;
 	display: none;
 }
+.rewards{
+	margin: 50px 0;
+}
 .rew__tel{
 	display: flex;
 	justify-content: center;
@@ -855,11 +858,11 @@ body{
 }
 
 .footer {
-	background-color: #232222;
+	background-color: #070707;
 	position: relative;
 	bottom: 100px;
 	left: 0px;
-	box-shadow: 1px 1px 10px #000 inset;
+	box-shadow: 1px 1px 10px #000 ;
 }
 .conteiner {
 }
@@ -885,6 +888,15 @@ body{
 .foot__img{
 	padding: 0 10px 0 10px;
 }
+@media (max-width:767px){
+	.foot__img{
+		display: flex;
+		justify-content: center;
+		padding: 0 0 10px 30px;
+	}
+}
+
+
 .popup__area{
 	position: absolute;
 	top: 0;
