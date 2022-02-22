@@ -110,7 +110,7 @@ body{
 		padding: 0 0px 0 6px;
 		margin: 0 0 0 20px;
 	}
-	img{
+	.img__tel{
 		display: none;
 	}
 	.header__logo__text{
@@ -306,8 +306,8 @@ body{
 }
 @media (max-width:767px){
 	.firstblock__title{
-		font-size: 20px;
-
+		font-size: 22px;
+		font-weight: 600;
 		padding: 0 70px 30px 0px;
 	}
 	.shop{
@@ -316,7 +316,7 @@ body{
 		padding: 0 0 5px 0;
 	}
 	.firstblock__text{
-		font-size: 12px;
+		font-size: 14px;
 		position: relative;
 		top: 0;
 		right: 30px;
@@ -329,6 +329,7 @@ body{
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
+		font-weight: 600;
 	}
 	.button__one:hover{
 	width: 125px;
@@ -373,11 +374,12 @@ body{
 }
 @media (max-width:767px){
 	.about__title{
-		font-size: 20px;
+		font-size: 22px;
+		font-weight: 600;
 		padding: 0 0 20px 10px;
 	}
 	.about__text{
-		font-size: 12px;
+		font-size: 14px;
 		padding: 0 10px;
 	}
 	.about__text p{
@@ -481,7 +483,8 @@ body{
 
 		}
 		.how__work__title{
-			font-size: 20px;
+			font-size: 22px;
+			font-weight: 600;
 		}
 }
 
@@ -552,11 +555,12 @@ body{
 }
 @media (max-width:767px){
 		.conection__title{
-		font-size: 20px;
+		font-size: 22px;
+		font-weight: 600;
 		padding: 0 0 0 10px;
 		}
 		.conection__text{
-			font-size: 13px;
+			font-size: 14px;
 			padding: 25px 0 0 110px;
 		}
 		.conection__tel{
@@ -736,6 +740,10 @@ body{
 @media (max-width:767px){
 	.slider {
 		padding: 0px 40px;
+	}
+	.our__title{
+	font-size: 22px;
+	font-weight: 600;
 	}
 }
 .our__title{

@@ -21,7 +21,7 @@
 			<div class="container">
 				<div class="header__body">
 					<div class="header__logo">
-						<img src="img/header__logo.png" alt="">
+						<img class="img__tel" src="img/header__logo.png" alt="">
 						<div class="header__logo__text">smart_cam</div>
 					</div>
 					<div class="header__burger">
@@ -55,7 +55,7 @@
 				<div class="container">
 					<div class="firstblock__row">
 						<div class="firstblock__img">
-							<img src="img/top__cam.png" alt="">
+							<img class="img__tel" src="img/top__cam.png" alt="">
 						</div>
 						<div class="firstblock__body">
 							<div data-aos="zoom-in" class="firstblock__title title"><span class="shop">Магазин</span> відеокамер</div>
@@ -209,18 +209,18 @@
 			<form action="telegram.php" method="POST" enctype="multipart/form-data">
 				<div class="form__row">
 					<div class="popup__text">Ваше Ім’я (Фамілія)</div>
-				<input class="popup__form" type="text" name="name" value="">
+				<input class="popup__form _req _email" type="text" name="name" value="">
 				<div class="popup__text">Ваша Електронна пошта</div>
 				<input class="popup__form" type="text" name="gmail" value="">
 				<div class="popup__text">Номер телефону</div>
 				<input class="popup__form" type="tel" name="phone" value="">
 				</div>
 				<div class="popup__consent">
-					<input class="popup__input" type="checkbox" name="consent" value="yes">
+					<input class="popup__input _req" type="checkbox" name="consent" value="yes">
 					<div class="popup__consent__text">Я даю згоду на обробку персональних данних</div>
 				</div>
 				<div class="popup__btn">
-					<button type="submite" class="button">Відправити</button>
+					<button type="submit" class="button">Відправити</button>
 				</div>
 			</form>
 		</div>
